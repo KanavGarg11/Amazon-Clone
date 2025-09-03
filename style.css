@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: rgb(19, 25, 33);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#amznavlogo {
+    height: 55px;
+    width: 120px;
+}
+
+#amznavlogolink {
+    margin-left: 10px;
+}
+
+/* FIXED: was `delindlinkspan` (missing #) */
+#delindlinkspan {
+    height: 60px;
+    width: 60px;
+}
+
+#delindlink {
+    height: 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#delto {
+    color: white;
+    margin-top: 10px;
+    font-size: small;
+}
+
+#india {
+    color: white;
+    font-weight: bold;
+}
+
+#loclogospan {
+    padding-top: 15px;
+}
+
+#dltoin {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#selandsearchspan {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#sel {
+    background-color: rgb(224, 224, 224);
+    height: 40px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+#searchlogospan {
+    background-color: rgb(254, 189, 105);
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#searchimg {
+    padding-left: 9px;
+}
+
+#searchinput {
+    height: 40px;
+    width: 800px;
+}
+
+#langspan {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#amrflagspan {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#entext {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#amrflagimg {
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+#langspanlink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#signinlink {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+
+#accountspan {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#hellospan {
+    font-size: 14px;
+}
+
+#orderlink {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+#orders {
+    font-weight: bold;
+}
+
+#rtnandordspan {
+    margin-left: 30px;
+}
+
+#cartspanlink {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+#cartimg {
+    height: 35px;
+}
+
+#cartspan {
+    margin-left: 20px;
+}
+
+#cartnumspan {
+    display: flex;
+    flex-direction: column;
+}
+
+#cartnotext {
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgb(254, 189, 105);
+}
+
+/* NAV SECOND ROW */
+#navshop {
+    background-color: rgb(40, 44, 60);
+    height: 40px;
+    display: flex;
+}
+
+#allspanlink {
+    color: white;
+    text-decoration: none;
+}
+
+#linesimg {
+    height: 20px;
+}
+
+#allspan {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#alltextspan {
+    padding-bottom: 20px;
+}
+
+.navshopitem {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.navshoplink {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navshoplink:hover {
+    text-decoration: underline;
+    color: rgb(254, 189, 105);
+    cursor: pointer;
+}
+
+/* HERO */
+#herodiv {
+    background-image: url("/Web Dev/HTML/Amazon Clone/Images/heroimage.jpg");
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#middlelinediv {
+    background-color: rgb(245, 245, 245);
+    height: 40px;
+    align-items: center;
+    display: flex;
+    margin-top: 250px;
+    margin-left: 50px;
+    width: 1400px;
+}
+
+#mllink {
+    text-decoration: none;
+}
+
+#mllinetext {
+    margin-left: 200px;
+}
+
+/* CATEGORIES */
+#catdiv {
+    display: flex;
+}
+
+.cat {
+    background-color: white;
+    height: 360px;
+    width: 420px;
+    margin: 20px 10px 10px;
+}
+
+#cat1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* (unused but kept) */
+#4picspan {
+    display: flex;
+    flex-direction: column;
+}
+
+#top2pic {
+    display: flex;
+}
+
+#below2pic {
+    display: flex;
+}
+
+.picsincat {
+    height: 120px;
+    width: 150px;
+    margin: 7px 7px 0;
+}
+
+.dis-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dis-r {
+    display: flex;
+    align-items: center;
+}
+
+#newhomespan {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#cat1span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cattext {
+    font-size: 12px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#top2pic a,
+#below2pic a {
+    text-decoration: none;
+    color: black;
+}
+
+#top2pic a:hover,
+#below2pic a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Category 4 */
+#cat4title {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#cat4top2 a,
+#cat4below2 a {
+    text-decoration: none;
+    color: black;
+}
+
+#cat4top2 a:hover,
+#cat4below2 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Category 2 */
+#gameimg {
+    width: 300px;
+    height: 290px;
+}
+
+#cat2span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cat2text {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#cat2link {
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 79, 164);
+}
+
+/* Category 3 */
+#cat3span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cat3text {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#cat3img {
+    width: 300px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#cat3link {
+    margin-right: 200px;
+    margin: 10px 0;
+    color: rgb(0, 79, 164);
+    text-decoration: none;
+}
+
+#cat3link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* FOOTER */
+#back2top {
+    background-color: rgb(56, 68, 92);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#back2toplink {
+    margin-left: 700px;
+    color: white;
+    text-decoration: none;
+}
