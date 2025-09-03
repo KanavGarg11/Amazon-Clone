@@ -1,1 +1,1 @@
-![screenshot of app](amz clone demo.png)
+![screenshot of app](amz.png)
